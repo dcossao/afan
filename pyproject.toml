@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "afan"
+version = "0.1.0"
+description = ""
+authors = ["Catalina <dcossaogh@use.startmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+dspy = "^2.6.23"
+openai = "^1.77.0"
+torch = "^2.7.0"
+transformers = "^4.51.3"
+datasets = "^3.6.0"
+python-dotenv = "^1.1.0"
+pandas = "^2.2.3"
+numpy = "^2.2.5"
+pytest = "^8.3.5"
+ruff = "^0.11.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 99
+src = ["afan"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["afan"]
+force-sort-within-sections = true
