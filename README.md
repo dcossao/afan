@@ -38,7 +38,7 @@ Zero-shot prediction with narrative arc signature and a few-shot LLM judge (vs. 
 
 ## Data
 
-The [Narrative Frame Corpus](https://github.com/lfroemmgen/narrative-framing) by Frermann et al. (2023), released under an MIT license. It contains 428 manually annotated climate change articles from US and UK outlets, balanced across publication date (2017–2019) and four political leanings (left, center-left, right, questionable source) as classified by Media Bias Fact Check. Each article is annotated with entities and their narrative roles. A 25% hold-out test set was stratified by outlet leaning.
+The [Narrative Frame Corpus](https://github.com/phenixace/narrative-framing) by Frermann et al. (2023), released under an MIT license. It contains 428 manually annotated climate change articles from US and UK outlets, balanced across publication date (2017–2019) and four political leanings (left, center-left, right, questionable source) as classified by Media Bias Fact Check. Each article is annotated with entities and their narrative roles. A 25% hold-out test set was stratified by outlet leaning.
 
 ---
 
